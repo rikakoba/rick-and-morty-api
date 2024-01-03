@@ -1,0 +1,33 @@
+h1.text-center {
+    font-size: 5.625rem;
+    font-weight: 900;
+}
+
+footer {
+    background-color: rgb(32, 35, 41);
+}
+
+a i::before {
+    color: chartreuse;
+    transform: translate(50%) scale(0.7);
+}
+
+span a {
+    color: white;
+    border-bottom: 1px solid orange;
+}
+
+span a:hover {
+    color: orange;
+    border-bottom: none;
+    transition: color 0.2s ease;
+}
+
+footer ul.list-unstyled a, a {
+    color: rgb(158, 158, 158);
+    font-size: 0.75rem;
+}
+
+footer ul.list-unstyled a:hover, a:hover {
+    color: orange;
+}
